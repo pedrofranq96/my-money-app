@@ -1,7 +1,9 @@
-import React, {Component} from "react";  
+import React, {Component} from "react"
 import ContentHeader from '../common/template/contentHeader'
 import Content from '../common/template/content'
-
+import Tabs from "../common/tab/tabs"
+import TabsHeader from "../common/tab/tabsHeader"
+import TabsContent from "../common/tab/tabsContent"
 
 class BillingCycles extends Component {
     render(){
@@ -9,7 +11,14 @@ class BillingCycles extends Component {
             <div>
                 <ContentHeader title='Ciclos de Pagamentos' small='Cadastro'/>
                 <Content>
-                    Ciclos de pagamentos
+                    <Tabs>
+                        <TabsHeader>
+
+                        </TabsHeader>
+                        <TabsContent>
+
+                        </TabsContent>
+                    </Tabs>
                 </Content>
             </div>
         )
