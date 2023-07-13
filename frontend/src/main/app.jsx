@@ -4,7 +4,7 @@ import Header from '../common/template/header'
 import Sidebar from '../common/template/sidebar';
 import Footer from '../common/template/footer';
 import Routes from './routes';
-
+import Messages from '../common/msg/messages';
 export default props => (
     <div className='skin-blue' style={{minHeight: 0}}>
         <Header/>
@@ -13,6 +13,6 @@ export default props => (
             <Routes/>
         </div>
         <Footer />
-        
+        <Messages/>
     </div>
 )
