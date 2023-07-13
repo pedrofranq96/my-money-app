@@ -1,6 +1,7 @@
 import React, {Component} from "react"
 import { reduxForm, Field } from "redux-form"
 import labelAndInput from "../common/form/labelAndInput"
+
 class BillingCycleForm extends Component{
     render(){
         const {handleSubmit} = this.props
@@ -23,4 +24,4 @@ class BillingCycleForm extends Component{
     }
 }
 
-export default reduxForm({form: 'billingCycleForm'})(BillingCycleForm)
+export default reduxForm({form: 'billingCycleForm', destroyOnUnmount: false})(BillingCycleForm)
