@@ -8,7 +8,7 @@ module.exports = function(server){
 
     protectedApi.use(auth)
     const BillingCicle = require('../api/billingCycle/billingCycleService')
-    BillingCicle.register(router, '/billingCycles')
+    BillingCicle.register(protectedApi, '/billingCycles')
     
     //rotas abertas
     const openApi = express.Router()
