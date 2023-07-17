@@ -22,13 +22,13 @@ class Navbar extends Component {
                             <a href="javascript:;" onClick={() => this.changeOpen()}
                                 aria-expanded={this.state.open ? 'true' : 'false'}
                                 className="dropdown-toggle" data-toggle="dropdown">
-                                <img src='http://lorempixel.com/160/1660/abstract'
+                                <img src='https://picsum.photos/id/237/200/300'
                                     className="user-image" alt="User Image"/>
                                 <span className="hidden-xs">{name}</span>
                             </a>
                             <ul className="dropdown-menu">
                                 <li className="user-header">
-                                    <img src='http://lorempixel.com/160/160/abstract'
+                                    <img src='https://picsum.photos/id/237/200/300'
                                         className="img-circle" alt="User Image"/>
                                     <p>{name}<small>{email}</small></p>    
                                 </li>
